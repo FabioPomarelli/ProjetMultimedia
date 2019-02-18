@@ -25,6 +25,7 @@ CONST dsn = "mysql:dbname=".SELF::db.";host=".SELF::host;
         <li>Trace : </li>".htmlspecialchars($dbex->getTraceAsString())."
         <li>Message : </li>".htmlspecialchars($dbex->getMessage())."</ul>";
         die($message);
+        //echo "test_git";
     }
   }
 }
