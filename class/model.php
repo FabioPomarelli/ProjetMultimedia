@@ -2,10 +2,10 @@
 class Model {
     CONST db = 'multimedia';          //nom de la base de données
     CONST host = 'localhost';          // nom de la machine hôte
-//    CONST user = 'root';       // nom de l'utilisateur
-//    CONST pwd = '1234512345'; // mot de passe (vide car pas de mdp)
-  CONST user = 'userProjetPOO';       // nom de l'utilisateur
-  CONST pwd = 'jv0hRwfQMz7u4IysKeUd'; // mot de passe (vide car pas de mdp)
+   CONST user = 'root';       // nom de l'utilisateur
+   CONST pwd = '1234512345'; // mot de passe (vide car pas de mdp)
+//   CONST user = 'userProjetPOO';       // nom de l'utilisateur
+//   CONST pwd = 'jv0hRwfQMz7u4IysKeUd'; // mot de passe (vide car pas de mdp)
 CONST dsn = "mysql:dbname=".SELF::db.";host=".SELF::host;
   
  protected $_db;
